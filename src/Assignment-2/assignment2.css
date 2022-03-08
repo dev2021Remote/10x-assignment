@@ -1,4 +1,74 @@
 /* Our CSS file. */
+.center{
+    /* position:fixed; */
+    width: 100%;
+    background-color: aqua;
+}
+
+.logo{
+    float:left;
+    /* justify-content: left; */
+}
+
+.link{
+    text-align: center;
+}
+
+.links{
+    width: 100%;
+    border: 1px solid black;
+    height: 10vh;
+}
+
+.left-item{
+    border: 1px solid black;
+    width: 12.5%;
+    line-height: 26pt;
+    position: absolute;
+}
+
+ul {
+    list-style-type: none;
+}
+.right-item{
+    border: 1px solid black;
+    width: 12.5%;
+    line-height: 26pt;
+    float: right;
+    position: absolute;
+    margin-left: 86.5%;
+}
+
+#main-content-section{
+    border: 1px solid black;
+    margin-left: 13%;
+    width: 72%;
+    line-height: 26pt;
+    position: absolute;
+}
+
+.post-img{
+    display: flex;
+    width: 150px;
+    height: 185px;
+    justify-content: center;
+}
+
+.search{
+    float:right;
+    margin-right: 4%;
+}
+
+footer{
+    margin-top: 25%;
+    width: 100%;
+    border: 1px soilid black;
+}
+
+#page-footer{
+    border: 1px solid black;
+
+}
 
 
 .container, .content {
