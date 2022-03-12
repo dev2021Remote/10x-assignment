@@ -1,7 +1,120 @@
 /* Our CSS file. */
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
 
+.navbar {
+  height: 5vh;
+  width: 100%;
+  color: white;
+  background-color: darkcyan;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+.navbar .right-option {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+nav li:hover {
+  background: #3f8da7;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .logo {
+  float: left;
+  padding: 5px 10px;
+  margin-left: 1%;
+}
+
+.section-1{
+    background-image: url('./asset/images/back.jpeg');
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 0;
+    /* margin-bottom: 20px; */
+}
+
+.section-1 img{
+    border-radius: 50%;
+    border: 1px solid teal;
+}
+
+.section-1 button{
+    cursor: pointer;
+    color: teal;
+    background-color: white;
+    border:2px solid teal;
+    width: 100px;
+    margin-top: 20px;
+    height: 4em;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.section-2 table{
+    width: 100%;
+}
+
+.section-2 table tr td{
+    text-align: center;
+    justify-content: center;
+}
+
+.section-2 table tr td h1{
+    color: teal;
+    font-weight: 400;
+}
+
+.section-2 table tr td img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid teal;
+}
+
+.section-2 table tr td div{
+    width: 70%;
+    padding: 20px 100px;
+}
+
+.section-2 table tr td button{
+    cursor: pointer;
+    color: teal;
+    background-color: white;
+    border:2px solid teal;
+    width: 100px;
+    margin-top: 20px;
+    height: 4em;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: darkcyan;
+    color: white;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+footer a{
+    margin-top: 20px;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 25px;
+
 }
