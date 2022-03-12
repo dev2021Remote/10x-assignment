@@ -1,5 +1,7 @@
 /* Our CSS file. */
-
+.whole-table{
+    width: 100%;
+}
 
 .container, .content {
 width: 100%;
